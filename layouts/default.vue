@@ -1,7 +1,7 @@
 <template>
   <div>
-    <h3>========default layout=======</h3>
     <nuxt/>
+    <h3>========default layout footer=======</h3>
   </div>
 </template>
 

@@ -18,6 +18,14 @@ module.exports = {
   ** Customize the progress bar color
   */
   loading: { color: '#3B8070' },
+
+  modules: [
+    '@nuxtjs/axios',
+    '@nuxtjs/proxy'
+  ],
+  proxy: [
+    ['/apis', { target: 'https://suggest.taobao.com/', pathRewrite: { '^/apis': '/' } }]
+  ],
   /*
   ** Build configuration
   */
