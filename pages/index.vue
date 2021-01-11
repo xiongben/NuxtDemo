@@ -12,12 +12,12 @@
 </template>
 
 <script>
-import TestButton from "@/components/TestButton"
+// import TestButton from "@/components/TestButton"
 
 export default {
-  components: {
-    TestButton
-  }
+  // components: {
+  //   TestButton
+  // }
 
 }
 </script>

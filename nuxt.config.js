@@ -26,6 +26,9 @@ module.exports = {
   proxy: [
     ['/apis', { target: 'https://suggest.taobao.com/', pathRewrite: { '^/apis': '/' } }]
   ],
+  plugins: [
+    '~/plugins/components.js'
+  ],
   /*
   ** Build configuration
   */
