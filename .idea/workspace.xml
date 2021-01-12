@@ -11,10 +11,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d5c094a6-ef5c-44d5-bb8d-b6969128c67c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/plugins/components.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/rem.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nuxt.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/nuxt.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/about/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/about/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/list/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/list/index.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +53,7 @@
       <updated>1600431102175</updated>
       <workItem from="1600431103245" duration="6376000" />
       <workItem from="1601129669637" duration="79000" />
-      <workItem from="1610278869326" duration="8142000" />
+      <workItem from="1610278869326" duration="9727000" />
     </task>
     <servers />
   </component>

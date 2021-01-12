@@ -11,6 +11,7 @@
         {{item[0]}}
       </div>
     </div>
+    <button @click="toOtherPage">to news page</button>
   </div>
 </template>
 
@@ -24,7 +25,7 @@ export default {
     }
   },
    async asyncData(ctx) {
-      const res = await axios.get("https://suggest.taobao.com/sug?code=utf-8&q=%E8%A3%A4%E5%AD%90");
+      const res = await axios.get("/apis/sug?code=utf-8&q=%E8%A3%A4%E5%AD%90");
       // console.log(res.data.result)
       return {listInfoData: res.data.result}
    },
@@ -35,6 +36,15 @@ export default {
        this.listData = res.data.result
 
      },
+     toOtherPage(){
+       this.$router.push({
+         name: "news-id",
+         params:{
+           id: 12345,
+           name: "xiaoming",
+         }
+       })
+     },
    }
 }
 </script>
@@ -44,6 +54,8 @@ export default {
     width: 100%;
     background: yellowgreen;
     font-size: 12px;
+    height: 100vh;
+    overflow-y: scroll;
   }
   .listItem{
     width: 100%;

@@ -11,7 +11,10 @@ module.exports = {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ]
+    ],
+    script: [
+      { src: '/rem.js', type: 'text/javascript', charset: 'utf-8'}
+    ],
   },
   css:['~assets/css/base.css'],
   /*
