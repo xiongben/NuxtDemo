@@ -1,7 +1,7 @@
 <template>
   <div class="box">
-    <h2>article index page</h2>
-    <div class="head">title</div>
+
+
     <TestButton/>
     <ul>
       <li v-for="(todo, index) in todos" :key="index">

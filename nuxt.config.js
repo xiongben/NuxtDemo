@@ -24,7 +24,7 @@ module.exports = {
 
   modules: [
     '@nuxtjs/axios',
-    '@nuxtjs/proxy'
+    '@nuxtjs/proxy',
   ],
   proxy: [
     ['/apis', { target: 'https://suggest.taobao.com/', pathRewrite: { '^/apis': '/' } }]
@@ -32,6 +32,10 @@ module.exports = {
   plugins: [
     '~/plugins/components.js'
   ],
+  buildModules: [
+    '@nuxtjs/vuetify'
+  ],
+
   /*
   ** Build configuration
   */
